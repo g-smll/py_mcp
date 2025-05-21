@@ -63,7 +63,7 @@ class UserClient:
             "tools": self.tools
         }
         headers = {
-            "Authorization": "Bearer sk-xkmpyoaangdwwjirbwajaifivchxeqarueggkgaafnauikkd",
+            "Authorization": "你的token",
             "Content-Type": "application/json"
         }
         response = requests.request("POST", self.url, json=payload, headers=headers)
